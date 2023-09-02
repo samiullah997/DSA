@@ -7,9 +7,9 @@ int main(){
     for(int i=n;i>=1;i--){
         for(int j=1;j<=n;j++){
             if(j>=i){
-                cout<<"*";
+                cout<<"* ";
             }else{
-                cout<<" ";
+                cout<<"  ";
             }
         }
         cout<<endl;
