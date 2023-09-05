@@ -8,9 +8,9 @@ int main(){
     for(int i = 0; i <= rows; i++){
         for(int j = 0; j <= columns; j++){
             if(i == 0 || i == rows || j == 0 || j == columns){
-                cout<<"* ";
+                cout<<"*  ";
             }else{
-                cout<<"  ";
+                cout<<"   ";
             }
         }
         cout<<endl;
