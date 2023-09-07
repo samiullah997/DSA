@@ -9,16 +9,16 @@ int main()
     {
         for (int j = 1; j <= n - i; j++)
         {
-            cout << " ";
+            cout << "  ";
         }
         int k = i;
         for (int j = n; j >= n - i + 1; j--)
         {
-            cout << k--;
+            cout << k--<<" ";
         }
         for (int j = 2; j <= i; j++)
         {
-            cout << j;
+            cout << j<<" ";
         }
         cout << endl;
     }
