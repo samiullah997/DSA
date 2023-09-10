@@ -10,6 +10,6 @@ int main(){
             cout<<count<<"  "; // print count number and spaces
             count++; // increment counter
         }
-        cout<<endl;
+        cout<<endl; // end line here.
     }
 }
