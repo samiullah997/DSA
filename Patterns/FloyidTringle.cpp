@@ -6,7 +6,7 @@ int main(){
     int n = 5;
     int count = 1;
     for(int i=1;i<=n;i++){ // start loop from 1 to n
-        for(int j=1;j<=i;j++){
+        for(int j=1;j<=i;j++){ // start 2nd loop from 1 to i
             cout<<count<<"  "; // print count number and spaces
             count++; // increment counter
         }
