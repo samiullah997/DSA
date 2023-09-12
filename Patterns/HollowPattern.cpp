@@ -10,7 +10,7 @@ int main(){
             if(i == 0 || i == rows || j == 0 || j == columns){
                 cout<<"*  "; // print * with spaces
             }else{
-                cout<<"   ";
+                cout<<"   "; // print spaces here.
             }
         }
         cout<<endl;
