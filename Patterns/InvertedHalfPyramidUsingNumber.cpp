@@ -8,6 +8,6 @@ int main(){
         for(int j=1;j<=i;j++){ // start 2nd loop from 1 to i
             cout<<i<<"  "; // print i with spaces
         }
-        cout<<endl;
+        cout<<endl; // endline here.
     }
 }
