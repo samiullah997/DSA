@@ -8,7 +8,7 @@ int main(){
         for(int j=1;j<=n-i;j++){ // start 2nd loop from 1 to n-i
             cout<<" "; // print spaces
         }
-        for(int k=1;k<=i;k++){
+        for(int k=1;k<=i;k++){ // start 2nd loop from 1 to i
             cout<<k<<" ";
         }
         cout<<endl;
