@@ -9,7 +9,7 @@ int main(){
             cout<<" "; // print spaces
         }
         for(int k=1;k<=i;k++){ // start 2nd loop from 1 to i
-            cout<<k<<" ";
+            cout<<k<<" "; // print k with spaces
         }
         cout<<endl;
     }
