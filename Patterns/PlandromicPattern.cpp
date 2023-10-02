@@ -9,7 +9,7 @@ int main()
     {
         for (int j = 1; j <= n - i; j++) // start 2nd loop from 1 to n-i
         {
-            cout << "  ";
+            cout << "  "; // print spaces
         }
         int k = i;
         for (int j = n; j >= n - i + 1; j--)
