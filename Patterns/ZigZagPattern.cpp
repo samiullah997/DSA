@@ -12,7 +12,7 @@ int main(){
                 cout<<"  "; // print spaces
             }
         }
-        cout<<endl;
+        cout<<endl; // endline
     }
     return 0;
 }
