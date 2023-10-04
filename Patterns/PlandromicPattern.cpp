@@ -12,7 +12,7 @@ int main()
             cout << "  "; // print spaces
         }
         int k = i;
-        for (int j = n; j >= n - i + 1; j--)
+        for (int j = n; j >= n - i + 1; j--) // start 3rd loop from n to n-i+1
         {
             cout << k--<<" ";
         }
