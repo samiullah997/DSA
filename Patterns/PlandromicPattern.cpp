@@ -14,7 +14,7 @@ int main()
         int k = i;
         for (int j = n; j >= n - i + 1; j--) // start 3rd loop from n to n-i+1
         {
-            cout << k--<<" ";
+            cout << k--<<" "; // print k with spaces.
         }
         for (int j = 2; j <= i; j++)
         {
