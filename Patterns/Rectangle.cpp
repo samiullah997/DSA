@@ -9,6 +9,6 @@ int main(){
         for(int j = 0; j < columns; j++){ // start 2nd loop from 0 to columns
             cout<<"* "; // print * with spaces
         }
-        cout<<"* "<<endl;
+        cout<<"* "<<endl; // print * with spaces and endline
     }
 }
