@@ -11,7 +11,7 @@ int main()
         {
             cout << "  "; // print spaces
         }
-        for (int j = 1; j <= i; j++)
+        for (int j = 1; j <= i; j++) // start 3rd loop from 1 to i
         {
             cout << "* ";
         }
