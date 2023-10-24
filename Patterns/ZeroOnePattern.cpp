@@ -9,7 +9,7 @@ int main(){
             if((i+j)%2 == 0){ // check condition if (i+j)%2 == 0
                 cout<<0<<" "; // print zero with spaces
             }else {
-                cout<<1<<" ";
+                cout<<1<<" "; // print 1 with spaces
             }
         }
         cout<<endl;
