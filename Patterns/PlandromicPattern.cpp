@@ -5,20 +5,20 @@ using namespace std;
 int main()
 {
     int n = 5;
-    for (int i = 1; i <= n; i++)
+    for (int i = 1; i <= n; i++) // start 1st loop from 1 to n
     {
-        for (int j = 1; j <= n - i; j++)
+        for (int j = 1; j <= n - i; j++) // start 2nd loop from 1 to n-i
         {
-            cout << " ";
+            cout << "  "; // print spaces
         }
         int k = i;
-        for (int j = n; j >= n - i + 1; j--)
+        for (int j = n; j >= n - i + 1; j--) // start 3rd loop from n to n-i+1
         {
-            cout << k--;
+            cout << k--<<" "; // print k with spaces.
         }
-        for (int j = 2; j <= i; j++)
+        for (int j = 2; j <= i; j++) // start 4th loop from 2 to i
         {
-            cout << j;
+            cout << j<<" ";
         }
         cout << endl;
     }

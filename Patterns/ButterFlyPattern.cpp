@@ -7,9 +7,9 @@ int main(){
     for(int i=0;i<=n;i++){
         for(int j=0;j<=n;j++){
             if(j<=i || j>=n-i){
-                cout<< "*  ";
+                cout<< "*   "; // print * here.
             }else{
-                cout<<"   ";
+                cout<<"    "; // print spaces here.
             }
         }
         cout<<endl;
@@ -17,9 +17,9 @@ int main(){
     for(int i=0;i<=n;i++){
         for(int j=0;j<=n;j++){
             if(j>=i || j<=n-i){
-                cout<< "*  ";
+                cout<< "*   ";
             }else{
-                cout<<"   ";
+                cout<<"    ";
             }
         }
         cout<<endl;

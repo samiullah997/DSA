@@ -5,19 +5,19 @@ using namespace std;
 int main()
 {
     int n = 5;
-    for (int i = 1; i <= n; i++)
+    for (int i = 1; i <= n; i++) // start 1st loop from 1 to n
     {
-        for (int j = 1; j <= n - i; j++)
+        for (int j = 1; j <= n - i; j++) // start 2nd loop from 1 to n
         {
-            cout << " ";
+            cout << "  "; // print spaces
         }
-        for (int j = 1; j <= i; j++)
+        for (int j = 1; j <= i; j++) // start 3rd loop from 1 to i
         {
-            cout << "*";
+            cout << "* ";
         }
         for (int j = 2; j <= i; j++)
         {
-            cout << "*";
+            cout << "* ";
         }
         cout << endl;
     }
@@ -26,15 +26,15 @@ int main()
     {
         for (int j = 1; j <= n - i; j++)
         {
-            cout << " ";
+            cout << "  ";
         }
         for (int j = 1; j <= i; j++)
         {
-            cout << "*";
+            cout << "* ";
         }
         for (int j = 2; j <= i; j++)
         {
-            cout << "*";
+            cout << "* ";
         }
         cout << endl;
     }
