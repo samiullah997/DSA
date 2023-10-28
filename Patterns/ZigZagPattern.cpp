@@ -9,7 +9,7 @@ int main(){
             if(((i+j)%4==0) || (i==2 && j%4==0)){ // check condition if (i+j) % 4 == 0 OR i==2 AND j%4 == 0
                 cout<<"* "; // print * with spaces
             }else{
-                cout<<"  ";
+                cout<<"  "; // print spaces
             }
         }
         cout<<endl;
